@@ -4,6 +4,7 @@ import Hero from "./assets/Components/Hero"
 import Navbar from "./assets/Components/Navbar"
 import Nations from "./assets/Components/Nations"
 import About from "./assets/Components/About"
+import Contact from "./assets/Components/Contact"
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Facts />
         <About />
         <Nations />
+        <Contact />
       </StrictMode>
     </div>
   )
