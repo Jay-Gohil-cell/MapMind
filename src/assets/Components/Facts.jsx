@@ -112,13 +112,17 @@ const Facts = () => {
     }
 
     return (
-        <section id="Facts" className="scroll-mt-24 my-13 md:my-30 mx-15 lg:mx-30">
-            <p className="w-full text-center text-5xl font-playfair mb-10 capitalize">Top Countries & their Facts</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5">
+        <section id="Facts" className="scroll-mt-24 py-13 md:px-30 px-15 lg:px-30 bg-black">
+
+            <div className="text-center md:text-left">
+                    <h2 className="text-3xl font-bold uppercase tracking-widest md:text-4xl text-white">Top Countries & their Facts</h2>
+                    <div className="mt-2 h-1 w-20 bg-white mx-auto md:mx-0"></div>
+                </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
                 {
                     countryData.map((country) => (
 
-                        <div className="w-auto  hover:-translate-y-1.5 transition-all bg-gray-100 p-4 border border-gray-300 rounded-lg hover:bg-gray-200 duration-300 " key={country.cca3}>
+                        <div className="w-auto  hover:-translate-y-1.5 transition-all bg-gray-400 p-4 border border-gray-300 rounded-lg hover:bg-gray-200 duration-300 " key={country.cca3}>
 
                             <div className="flex gap-4 items-center">
                                 <div>
@@ -130,8 +134,8 @@ const Facts = () => {
                                 </div>
                             </div>
 
-                            <div className="mt-4 px-2 py-1 bg-white rounded-md border border-gray-300">
-                                <p className="font-bold text-gray-500 text-md">Do you know?</p>
+                            <div className="mt-4 px-2 py-1 bg-gray-300 rounded-md border border-gray-300">
+                                <p className="font-bold text-black text-md">Do you know?</p>
                                 <p className="text-sm mt-1">🌍 Region: {country.region}</p>
                                 <p className="text-sm mt-1">📍 Subregion: {country.subregion}</p>
                                 <p className="text-sm mt-1">👥 Facts : {countryFacts.find((c) => c.country === country.name.common)?.fact}</p>

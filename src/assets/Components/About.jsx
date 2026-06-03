@@ -12,15 +12,15 @@ const About = () => {
 
                 {/* main heading */}
                 <div className="text-center md:text-left">
-                <h2 className="text-3xl font-bold uppercase tracking-widest md:text-4xl">about mapmind</h2>
-                <div className="mt-2 h-1 w-20 bg-white mx-auto md:mx-0"></div>
-            </div>
+                    <h2 className="text-3xl font-bold uppercase tracking-widest md:text-4xl">about mapmind</h2>
+                    <div className="mt-2 h-1 w-20 bg-white mx-auto md:mx-0"></div>
+                </div>
 
                 {/* Sub content */}
                 <p className=" font-light wrap-break-word text-justify">Welcome to World MapMind, your ultimate digital gateway to exploring the globe. We bring the entire planet to your fingertips by providing comprehensive, real-time data on every country—from capital cities and populations to regions and national flags.</p>
                 <p className="font-light wrap-break-word text-justify">Our mission is to make geography interactive, educational, and effortless to navigate for students, travelers, and curious minds alike. Powered by modern web technology and accurate data, discovering the world has never been this simple.</p>
 
-                
+
                 {/* Key feature list */}
                 <ul className="flex flex-col gap-2 font-light text-sm lg:list-disc list-inside">
                     <p className=" mt-5 font-medium text-xl font-outfit">Key Feature</p>

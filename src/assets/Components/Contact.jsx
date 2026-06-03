@@ -5,7 +5,7 @@ const Contact = () => {
         <section id="Contact" className="bg-black px-6 py-10 text-white lg:px-20">
 
             {/* Main Container */}
-            <div className="mx-auto grid min-h-[calc(100vh-64px)] max-w-7xl overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-md lg:grid-cols-[45%_55%]">
+            <div className="mx-auto grid min-h-[calc(100vh-64px)] max-w-7xl overflow-hidden rounded-3xl border border-white/10 bg-white/3 backdrop-blur-md lg:grid-cols-[45%_55%]">
 
                 {/* LEFT SIDE */}
                 <div className="relative flex flex-col justify-between border-b border-white/10 p-8 lg:border-b-0 lg:border-r lg:p-12">
