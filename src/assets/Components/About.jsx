@@ -2,7 +2,7 @@ import aboutImg from "../images/About-img.png"
 
 const About = () => {
     return (
-        <section id="About" className="bg-black h-full md:h-[calc(100vh-64px)] flex flex-col-reverse gap-5 lg:gap-0 lg:flex-row justify-evenly lg:justify-between items-center px-10 md:px-20 lg:py-20">
+        <section id="About" className="scroll-mt-12 lg:scroll-mt-10 bg-black h-full md:h-[calc(100vh-64px)] flex flex-col-reverse gap-5 lg:gap-0 lg:flex-row justify-evenly lg:justify-between items-center px-10 md:px-20 lg:py-20">
 
             {/* Global earth image */}
             <div><img className="w-150 h-full object-center rounded-full" src={`${aboutImg}`} alt="" /></div>

@@ -112,10 +112,10 @@ const Facts = () => {
     }
 
     return (
-        <section id="Facts" className="scroll-mt-24 py-13 md:px-30 px-15 lg:px-30 bg-black">
+        <section id="Facts" className="scroll-mt-10 py-13 md:px-15 px-12 lg:px-30 bg-black">
 
             <div className="text-center md:text-left">
-                    <h2 className="text-3xl font-bold uppercase tracking-widest md:text-4xl text-white">Top Countries & their Facts</h2>
+                    <h2 className="text-2xl font-bold uppercase tracking-widest md:text-4xl text-white">Top Countries & their Facts</h2>
                     <div className="mt-2 h-1 w-20 bg-white mx-auto md:mx-0"></div>
                 </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">

@@ -76,7 +76,7 @@ const Nations = () => {
     const showingData = retriveData.slice(start, end);
 
     return (
-        <section id="Nations" className="min-h-screen bg-black px-6 py-10 lg:py-20 text-white sm:px-12 lg:px-24">
+        <section id="Nations" className="scroll-mt-10 lg:scroll-mt-2 min-h-screen bg-black px-6 py-10 lg:py-20 text-white sm:px-12 lg:px-24">
             {/* Upper Heading */}
             <div className="mb-12 text-center md:text-left">
                 <h2 className="text-3xl font-bold uppercase tracking-widest md:text-4xl">Explore Countries</h2>
@@ -115,7 +115,7 @@ const Nations = () => {
             }
 
             {/* Cards Grid */}
-            <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-5">
                 {retriveData.length > 0 ? (
                     showingData.map((country) => {
                         return (
@@ -148,6 +148,7 @@ const Nations = () => {
                                         <p><span className="font-semibold text-neutral-500 text-xs mr-2">StartOf Week:</span> {country.startOfWeek}</p>
                                     </div>
                                 </div>
+                                <hr className="md:hidden border-2 border-gray-700"/>
                             </div>
                         );
                     })

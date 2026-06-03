@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <section id="Contact" className="bg-black px-6 py-10 text-white lg:px-20">
+        <section id="Contact" className="scroll-mt-5 bg-black px-6 py-10 text-white lg:px-20">
 
             {/* Main Container */}
             <div className="mx-auto grid min-h-[calc(100vh-64px)] max-w-7xl overflow-hidden rounded-3xl border border-white/10 bg-white/3 backdrop-blur-md lg:grid-cols-[45%_55%]">
@@ -115,7 +115,7 @@ const Contact = () => {
                             {/* Submit Button */}
                             <button
                                 type="submit"
-                                className="mt-2 rounded-xl border border-white bg-white py-4 text-sm font-semibold uppercase tracking-[0.2em] text-black transition-all duration-300 hover:bg-transparent "
+                                className="mt-2 rounded-xl border border-white bg-white py-4 text-sm font-semibold uppercase tracking-[0.2em] text-black transition-all duration-300 hover:bg-black/90 hover:text-white"
                             >
                                 Send Message
                             </button>

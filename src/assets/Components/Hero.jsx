@@ -14,12 +14,12 @@ const Hero = () => {
           <p className='font-alice text-xl lg:text-md text-slate-400 tracking-wider wrap-break-word px-3 md:px'>Every border holds a mystery. Every country has a hidden story. Step into the shadows of global geography and decode the classified facts of our planet</p>
 
           {/* //Button for atlas */}
-          <button className='bg-white mt-2 text-md rounded-3xl px-8 py-1.5 capitalize text-inter duration-300 text-black hover:bg-gray-200/90'>Explore the Atlas</button>
+          <a href="#Nations"><button className='bg-white mt-2 text-md rounded-3xl px-8 py-1.5 capitalize text-inter duration-300 text-black hover:bg-gray-200/90'>Explore The World Today</button></a>
         </div>
 
 
         {/* // Earth image  */}
-        <div className="  h-109 w-full bg-center bg-contain bg-no-repeat mb-10 md:mb-0" style={{ backgroundImage: `url(${heroImg})` }}></div>
+        <div className="  h-109 w-full bg-center bg-contain bg-no-repeat mt-10 md:mt-0 md:mb-0" style={{ backgroundImage: `url(${heroImg})` }}></div>
 
     </section>
   )
