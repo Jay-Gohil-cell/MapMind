@@ -5,6 +5,7 @@ import Navbar from "./assets/Components/Navbar"
 import Nations from "./assets/Components/Nations"
 import About from "./assets/Components/About"
 import Contact from "./assets/Components/Contact"
+import Footer from "./assets/Components/Footer"
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <About />
         <Nations />
         <Contact />
+        <Footer />
       </StrictMode>
     </div>
   )
