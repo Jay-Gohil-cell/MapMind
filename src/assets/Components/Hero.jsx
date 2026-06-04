@@ -11,7 +11,7 @@ const Hero = () => {
           <p className='text-white text-3xl font-black uppercase leading-tight tracking-wide md:text-4xl'>The Earth Has Secrets, Uncover the Hidden</p>
 
           {/* //Sub heading  */}
-          <p className='font-inter text-sm lg:text-md text-slate-400 tracking-wider text-justify wrap-break-word px-3 md:px'>Every border holds a mystery. Every country has a hidden story. Step into the shadows of global geography and decode the classified facts of our planet</p>
+          <p className='font-inter hidden md:block lg:text-md text-slate-400 tracking-wider text-justify wrap-break-word px-3 md:px'>Every border holds a mystery. Every country has a hidden story. Step into the shadows of global geography and decode the classified facts of our planet</p>
 
           {/* //Button for atlas */}
           <a href="#Nations"><button className='bg-white mt-2 text-md rounded-3xl px-8 py-1.5 capitalize text-inter duration-300 text-black hover:bg-gray-200/90'>Explore The World Today</button></a>
