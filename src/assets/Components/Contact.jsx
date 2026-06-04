@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="mx-auto grid min-h-[calc(100vh-64px)] max-w-7xl overflow-hidden rounded-3xl border border-white/10 bg-white/3 backdrop-blur-md lg:grid-cols-[45%_55%]">
 
                 {/* LEFT SIDE */}
-                <div className="relative flex flex-col justify-between border-b border-white/10 p-8 lg:border-b-0 lg:border-r lg:p-12">
+                <div className="relative flex flex-col justify-between border-b border-white/10 p-4 lg:border-b-0 lg:border-r lg:p-12">
 
                     <div>
 
@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
 
                 {/* RIGHT SIDE */}
-                <div className="flex items-center p-8 lg:p-12">
+                <div className="flex items-center p-5 lg:p-12">
 
                     <div className="w-full">
 

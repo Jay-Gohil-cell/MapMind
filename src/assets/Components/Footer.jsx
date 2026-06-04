@@ -38,7 +38,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <div className='text-center mt-4 md:mt-10'>
+            <div className='text-center text-sm md:text-md lg:text-xl mt-4 md:mt-10'>
                 copyright &copy;2026 <a href="https://portfolio-jay-ten.vercel.app/" className="text-blue-500 hover:underline">Jay Gohil</a>. All rights reserved.
             </div>
 
