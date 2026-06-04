@@ -30,11 +30,11 @@ const Footer = () => {
                 <p className='text-gray-400 hidden md:block md:max-w-200 lg:max-w-100 tracking-wider text-justify'>An interactive geographic dashboard designed to visualize global data, discover unique insights, and explore world facts seamlessly.</p>
 
                 <ul className='font-light uppercase flex gap-3 md:gap-5'>
-                    <li className='text-gray-400 hover:text-white'>Home</li>
-                    <li className='text-gray-400 hover:text-white'>Facts</li>
-                    <li className='text-gray-400 hover:text-white'>About</li>
-                    <li className='text-gray-400 hover:text-white'>Nations</li>
-                    <li className='text-gray-400 hover:text-white'>Contact</li>
+                    <a href="#Hero" className='text-gray-400 hover:text-white'>Home</a>
+                    <a href="#Facts" className='text-gray-400 hover:text-white'>Facts</a>
+                    <a href="#About" className='text-gray-400 hover:text-white'>About</a>
+                    <a href="#Nations" className='text-gray-400 hover:text-white'>Nations</a>
+                    <a href="#Contact" className='text-gray-400 hover:text-white'>Contact</a>
                 </ul>
             </div>
 
