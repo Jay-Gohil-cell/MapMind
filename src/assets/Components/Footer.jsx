@@ -4,7 +4,7 @@ import backBtn from '../images/bold-arrow-top-icon.svg'
 const Footer = () => {
     return (
         <section id="Footer" className="h-auto w-full bg-black px-8 md:px-20 text-white py-10 border-t">
-            <div className='flex justify-between flex-row items-center mb-5'>
+            <div className='flex justify-between flex-col-reverse gap-10 md:flex-row  items-center md:mb-5'>
                 <ul className='flex gap-1 items-center'>
                     <img src={logoImg} alt="Logo" className='w-8 h-8 md:w-10 md:h-10 grayscale-50' />
                     <div className="font-outfit text-3xl md:text-4xl font-semibold md:pt-1 text-white tracking-wide z-50">
@@ -14,7 +14,7 @@ const Footer = () => {
 
                 <a
                     href="#Hero"
-                    className="flex items-center gap-2 md:gap-3 group"
+                    className="flex items-center flex-col-reverse gap-2 md:gap-3 group"
                 >
                     <span className='text-xl font-semibold uppercase font-outfit'>Back to top</span>
 
@@ -26,10 +26,10 @@ const Footer = () => {
                 </a>
             </div>
 
-            <div className='flex justify-between flex-col items-center lg:flex-row gap-8 lg:gap-0 lg:items-start pt-8 lg:pt-0 pb-8'>
-                <p className='text-gray-400 md:max-w-200 lg:max-w-100 tracking-wider text-justify'>An interactive geographic dashboard designed to visualize global data, discover unique insights, and explore world facts seamlessly.</p>
+            <div className='flex justify-between flex-col items-center lg:flex-row gap-8 lg:gap-0 lg:items-start pt-4 md:pt-8 lg:pt-0 md:pb-8'>
+                <p className='text-gray-400 hidden md:block md:max-w-200 lg:max-w-100 tracking-wider text-justify'>An interactive geographic dashboard designed to visualize global data, discover unique insights, and explore world facts seamlessly.</p>
 
-                <ul className='font-light uppercase flex gap-5'>
+                <ul className='font-light uppercase flex gap-3 md:gap-5'>
                     <li className='text-gray-400 hover:text-white'>Home</li>
                     <li className='text-gray-400 hover:text-white'>Facts</li>
                     <li className='text-gray-400 hover:text-white'>About</li>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <div className='text-center mt-10'>
+            <div className='text-center mt-4 md:mt-10'>
                 copyright &copy;2026 <a href="https://portfolio-jay-ten.vercel.app/" className="text-blue-500 hover:underline">Jay Gohil</a>. All rights reserved.
             </div>
 
