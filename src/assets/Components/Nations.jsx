@@ -90,12 +90,12 @@ const Nations = () => {
                     type="text"
                     value={search}
                     name="Search"
-                    placeholder="Explore any country"
+                    placeholder="Find country"
                     className="px-10 pb-1 rounded-l-full outline-0 w-1/2 lg:w-1/3 h-10 bg-white text-black "
                 />
                 <button
                     onClick={() => {setSearch(""); setStart(0); setEnd(10);}}
-                    className="px-8 py-2 rounded-r-full font-semibold bg-white text-black hover:text-slate-600 duration-300"
+                    className="px-5 md:px-8 py-2 rounded-r-full font-semibold bg-white text-black hover:text-slate-600 duration-300"
                 >
                     clear
                 </button>
